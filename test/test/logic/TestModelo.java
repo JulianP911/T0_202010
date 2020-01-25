@@ -18,7 +18,7 @@ public class TestModelo {
 
 	public void setUp2() {
 		for(int i =0; i< CAPACIDAD;i++){
-			modelo.agregar(""+i);
+			modelo.agregar(i);
 		}
 	}
 
@@ -29,23 +29,27 @@ public class TestModelo {
 	}
 
 	@Test
-	public void testDarTamano() {
+	public void testDarTamano() 
+	{
 		// TODO
 	}
 
 	@Test
-	public void testAgregar() {
+	public void testAgregar() 
+	{
 		// TODO Completar la prueba
 	}
 
 	@Test
-	public void testBuscar() {
+	public void testBuscar() 
+	{
 		setUp2();
 		// TODO Completar la prueba
 	}
 
 	@Test
-	public void testEliminar() {
+	public void testEliminar() 
+	{
 		setUp2();
 		// TODO Completar la prueba
 		
